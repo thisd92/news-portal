@@ -49,25 +49,25 @@ npm run dev
 A aplicação estará disponível em http://localhost:3000.
 
 ### Estrutura dos Componentes
-#### src/app/api/news/route.ts
+`src/app/api/news/route.ts`
 Este é o endpoint da API que consome a API do GNews e fornece os dados de notícias para o frontend.
 
-#### src/app/home/
+`src/app/home/`
 Esta é a página principal que exibe a notícia em destaque e o grid de notícias.
 
-#### src/app/news/[slug]/
+`src/app/news/[slug]/`
 Esta é a página dinâmica que exibe os detalhes da notícia com base no slug gerado a partir do título da notícia. Contém page.tsx e type.ts.
 
-#### src/components/article/
+`src/components/article/`
 Componente para exibir um artigo individual. Contém index.tsx e types.ts.
 
-#### src/components/featured-new/
+`src/components/featured-new/`
 Componente para exibir a notícia em destaque. Contém index.ts e types.ts.
 
-#### src/components/news-card/
+`src/components/news-card/`
 Componente para exibir um card de notícia. Contém index.ts e types.ts.
 
-#### src/utils/generateSlug.ts
+`src/utils/generateSlug.ts`
 Função utilitária para gerar slugs a partir dos títulos das notícias.
 
 ### Estilização
